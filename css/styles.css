@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 150px;
+    height: 100vh;
+    position: fixed;
+    background-color:#364C64 ;
+}
+a{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+a > div {
+    background-color: #008DC3;
+}
+a > div > i, .lower a{
+    font-size: 25px;
+}
+a > div > p, .lower a {
+    font-size: 25px;
+}
+.content{
+  margin-left: 150px;
+}
+
+.h-logo{
+    max-width: 100px;
+    min-width: auto;
+}
+.nav-cust{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+.top-button{
+    width: 4%;
+}
+.nav-listt{
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto 0;
+    margin-right: 20px;
+}
+ul li{
+    list-style-type: none;
+}
+ol li a{
+    color: Gray;
+}
+.active a{
+    color: rgb(56, 56, 243);
+}
+
+table{
+    text-align: center;
+}
+
+thead > tr > th{
+    border-right: 2px gray solid;
+}
