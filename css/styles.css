@@ -24,17 +24,17 @@ a > div {
     background-color: #008DC3;
 }
 a > div > i, .lower a{
-    font-size: 25px;
+    font-size: 20px;
 }
 a > div > p, .lower a {
-    font-size: 25px;
+    font-size: 20px;
 }
 .content{
   margin-left: 150px;
 }
 
 .h-logo{
-    max-width: 100px;
+    max-width: 80px;
     min-width: auto;
 }
 .nav-cust{
@@ -64,8 +64,22 @@ ol li a{
 
 table{
     text-align: center;
+    border: 2px rgb(191, 191, 191) solid;
+    font-size: 12px;
 }
-
+td > Button{
+    font-size: 12px;
+}
+thead{
+    color: white;
+}
 thead > tr > th{
-    border-right: 2px gray solid;
+    border-right: 2px white solid;
+    background-color: #364C64;
+}
+thead > tr > th:last-child{
+    border-right: 2px rgb(191, 191, 191) solid;
+}
+tbody tr{
+    border: 2px rgb(191, 191, 191) solid;
 }
